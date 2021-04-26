@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="model-observer",
-    version="0.0.2",
+    version="0.0.21",
     author="Victor Elceaninov & Dorin Musteata",
     author_email="victor.elceaninov@ebs-integrator.org, dorin.musteata@ebs-integrator.org",
     description="Model Observer is a Django package that provides functionality to track events of the model. Based on django signals.",
