@@ -1,0 +1,5 @@
+[build-system]
+requires = [
+    "Django>=3",
+]
+build-backend = "setuptools.build_meta"

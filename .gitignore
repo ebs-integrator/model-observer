@@ -1,0 +1,8 @@
+# GENERAL
+.idea/
+*.pyc
+
+# VENV
+venv/
+
+# Other
