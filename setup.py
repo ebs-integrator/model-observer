@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://git2.devebs.net/ebs-backend/python/packages/model-observer",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://git2.devebs.net/ebs-backend/python/packages/model-observer/-/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -27,4 +27,7 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
+    install_requires=[
+        "Django>=3",
+    ]
 )
